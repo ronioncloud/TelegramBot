@@ -2,7 +2,7 @@ import random
 import telebot
 import json
 import requests
-yuu = telebot.TeleBot('1894877321:AAFDTv470mmfVlXAGHLk36DZZr9NSbgUj80', parse_mode='html')
+yuu = telebot.TeleBot('TOKEN', parse_mode='html')
  
 @yuu.message_handler(commands=['dolar'])
 def dolar(message):
