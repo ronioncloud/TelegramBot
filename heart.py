@@ -3,7 +3,7 @@ import telebot
 import json
 import requests
 from telebot.types import InlineKeyboardButton, InlineKeyboardMarkup
-yuu = telebot.TeleBot('1894877321:AAFDTv470mmfVlXAGHLk36DZZr9NSbgUj80', parse_mode='html')
+yuu = telebot.TeleBot('token', parse_mode='html')
 
 @yuu.message_handler(commands=['gato', 'gatin'])
 def enviar_foto_de_gato(message):
